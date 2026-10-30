@@ -71,13 +71,9 @@ Main considerations:
 
 |  | Replacement allowed | Does order matter | Common scenarios |
 | --- | --- | --- | --- |
-|  $n^r$ | **Yes** | **Order matters** | • All possible outcomes of rolling 2 dice
-• All possible outcomes of tossing 3 coins |
-| Permutations
-$_nP_r=\frac{n!}{(n-r)!}$ | **No** | **Order matters** | • Randomly drawing 2 balls from a collection, with the first being a red ball and the second being a basketball
-• Selecting 2 of 10 candidates to fill different positions |
-| Combinations:
-$_nC_r=(^n_r)=\frac{n!}{r!(n-r)!}$ | **No** | **Order does not matter** |  • Randomly drawing any 2 balls from a collection |
+| $n^r$ | <span style="color: #659c83;">Yes</span> | <span style="color: #659c83;">**Order matters**</span> | • All possible outcomes of rolling 2 dice<br>• All possible outcomes of tossing 3 coins |
+| Permutations<br>$_nP_r=\frac{n!}{(n-r)!}$ | <span style="color: #e74c3c;">No</span> | <span style="color: #659c83;">**Order matters**</span> | • Randomly drawing 2 balls from a collection, with the first being a red ball and the second being a basketball<br>• Selecting 2 of 10 candidates to fill different positions |
+| Combinations:<br>$_nC_r=(^n_r)=\frac{n!}{r!(n-r)!}$ | <span style="color: #e74c3c;">No</span> | <span style="color: #e74c3c;">**Order does not matter**</span> | • Randomly drawing any 2 balls from a collection |
 
 **Some problems can be solved using either $nCr$ or $nPr$**
 
